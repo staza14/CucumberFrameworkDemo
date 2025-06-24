@@ -4,7 +4,7 @@ import org.openqa.selenium.{By, JavascriptExecutor, WebDriver, WebElement}
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.support.ui.Select
 
-object PracticeFormPage {
+object FormSubmissionPage {
 
   // initialize driver
   val driver: WebDriver = new ChromeDriver()

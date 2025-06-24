@@ -1,8 +1,8 @@
 package stepdefs
 
 import io.cucumber.scala.{EN, ScalaDsl}
-import pages.PracticeFormPage
-import pages.PracticeFormPage.{acceptCookies, clickSubmit, enterDate, inputFirstName, inputLastName, launchBrowser, selectAutomationTools, selectContinent, selectExperience, selectGender, selectProfessions, uploadImage}
+import pages.FormSubmissionPage
+import pages.FormSubmissionPage.{acceptCookies, clickSubmit, enterDate, inputFirstName, inputLastName, launchBrowser, selectAutomationTools, selectContinent, selectExperience, selectGender, selectProfessions, uploadImage}
 
 class FormSubmissionSteps extends ScalaDsl with EN {
 
